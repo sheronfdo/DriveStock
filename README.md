@@ -30,8 +30,6 @@
 
 ## 📸 Screenshots
 
-> Place images in the `screenshots/` directory and reference them here.
-
 ### Client App
 
 ![Client Home](screenshots/client-home.png)  
@@ -146,11 +144,83 @@ npm run dev
 
 ---
 
-## 📂 Folder Structure
-
-> *(You can add diagrams or structured outlines here to represent the folder layout of each component.)*
+Sure! Here's the complete `## 📂 Folder Structure` section, clean and beautifully formatted in Markdown, ready to paste directly into your GitHub `README.md`:
 
 ---
+
+## 📂 Folder Structure
+
+```plaintext
+📦 Car-Parts-E-Com/
+├── 📁 controllers/            # Request handlers (route logic)
+├── 📁 middleware/             # Express middleware (e.g., auth, role check)
+├── 📁 models/                 # Mongoose models (MongoDB schemas)
+├── 📁 routes/                 # Express route definitions
+├── 📁 uploads/                # Uploaded images and files
+├── 📄 index.js                # Entry point of the Express server
+├── 📄 package.json            # Project metadata and scripts
+├── 📄 package-lock.json       # Lock file for dependencies
+├── 📄 vercel.json             # Vercel deployment config
+├── 📄 README.md               # Project documentation
+└── 📄 .gitignore              # Files to ignore in git
+
+📦 DriveStock-admin/
+├── 📁 node_modules/           # Installed dependencies (auto-generated)
+├── 📁 public/                 # Public static files (favicon, images)
+│   └── admin.svg
+├── 📁 src/                    # Source code
+│   ├── 📁 assets/             # Images, icons, etc.
+│   ├── 📁 components/         # Reusable components (UI, form, table)
+│   ├── 📁 pages/              # Admin pages (Dashboard, Users, Products)
+│   ├── 📁 services/           # Axios API handlers
+│   ├── 📁 hooks/              # Custom hooks (e.g., data fetching)
+│   ├── 📁 utils/              # Utility functions
+│   ├── 📁 layout/             # Layout wrappers like Sidebar, Navbar
+│   ├── App.css               # App-wide styles
+│   ├── App.jsx               # Root component
+│   ├── main.jsx              # App entry point
+│   └── index.css             # Global styles (Tailwind or plain CSS)
+├── .gitignore                # Git ignore config
+├── index.html                # HTML root template
+├── package.json              # Project metadata and scripts
+├── package-lock.json         # Dependency lock file
+├── postcss.config.js         # PostCSS config
+├── tailwind.config.js        # Tailwind config
+├── vite.config.js            # Vite config
+└── README.md                 # Admin panel documentation
+
+📦 DriveStock-client/
+├── 📁 node_modules/           # Installed dependencies (auto-generated)
+├── 📁 public/                 # Static public assets (served as-is)
+│   └── vite.svg
+├── 📁 src/                    # Source code
+│   ├── 📁 animations/         # Animation configs/assets (e.g., Lottie files)
+│   ├── 📁 assets/             # Static media like images, fonts
+│   ├── 📁 components/         # Reusable UI components
+│   ├── 📁 context/            # React context providers
+│   ├── 📁 data/               # Mock/static data or constants
+│   ├── 📁 hooks/              # Custom React hooks
+│   ├── 📁 pages/              # Route components/pages
+│   ├── 📁 services/           # API service layers or SDKs
+│   ├── 📁 utils/              # Utility/helper functions
+│   ├── App.css               # Global styles for App
+│   ├── App.jsx               # Root App component
+│   ├── index.css             # Tailwind/global styles
+│   └── main.jsx              # App entry point
+├── .gitignore                # Files/folders to ignore in git
+├── eslint.config.js          # ESLint config
+├── index.html                # HTML entry (Vite root)
+├── package.json              # Project metadata and scripts
+├── package-lock.json         # Lock file for exact dependency versions
+├── postcss.config.js         # PostCSS config for Tailwind
+├── tailwind.config.js        # Tailwind CSS config
+├── vite.config.js            # Vite bundler config
+└── README.md                 # Project documentation
+```
+
+---
+
+
 
 ## 🤝 Contributing
 
