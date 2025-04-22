@@ -1,172 +1,172 @@
 # 🚗 DriveStock – Car Parts E-Commerce Platform
-DriveStock is a full-featured MERN stack application designed to streamline the buying and selling of car parts. It comprises three main components
 
-- **Backend API**:Handles data management, authentication, and business logic
-- **Admin Panel**:Provides administrative functionalities for managing products, orders, and users
-- **Client App**:Offers a user-friendly interface for customers to browse and purchase car parts
+**DriveStock** is a full-featured MERN stack application designed to streamline the buying and selling of car parts. It comprises three main components:
+
+- **Backend API**: Handles data management, authentication, and business logic.
+- **Admin Panel**: Provides administrative functionalities for managing products, orders, and users.
+- **Client App**: Offers a user-friendly interface for customers to browse and purchase car parts.
 
 ---
 
 ## 🧩 Project Structure
-| Component      | Repository Link                                      | Description                                   |
-|----------------|------------------------------------------------------|-----------------------------------------------|
-| Backend API    | [Car-Parts-E-Com](https://github.com/sheronfdo/Car-Parts-E-Com) | Express.js server managing core functionalities. |
-| Admin Panel    | [DriveStock-admin](https://github.com/rashsvr/DriveStock-admin) | React-based dashboard for administrative tasks. |
-| Client App     | [DriveStock-client](https://github.com/rashsvr/DriveStock-client) | React + Vite + Tailwind CSS frontend for customers.|
+
+| Component      | Repository Link                                          | Description                                          |
+|----------------|----------------------------------------------------------|------------------------------------------------------|
+| Backend API    | [Car-Parts-E-Com](https://github.com/sheronfdo/Car-Parts-E-Com)      | Express.js server managing core functionalities.     |
+| Admin Panel    | [DriveStock-admin](https://github.com/rashsvr/DriveStock-admin)      | React-based dashboard for administrative tasks.      |
+| Client App     | [DriveStock-client](https://github.com/rashsvr/DriveStock-client)    | React + Vite + Tailwind CSS frontend for customers.  |
 
 ---
 
 ## ⚙️ Technologies Used
 
-- **Frontend** React, Vite, Tailwind CS
-- **Backend** Node.js, Express.s
-- **Database** MongoB
-- **Authentication** JWT (JSON Web Token)
-- **Deployment** Vercel (for backend), Netlify or Vercel (for fronten)
+- **Frontend**: React, Vite, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Authentication**: JWT (JSON Web Token)  
+- **Deployment**: Vercel (backend), Netlify or Vercel (frontend)
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-*Add relevant screenshots here to showcase the application's features and interfaces. Place images in a `screenshots/` directory and reference them as shown belo:*
+> Place images in the `screenshots/` directory and reference them here.
 
-### Client Ap
+### Client App
 
-![Client Home](screenshots/client-home.pg
-![Product Listing](screenshots/client-products.pg)
+![Client Home](screenshots/client-home.png)  
+![Product Listing](screenshots/client-products.png)
 
-### Admin Pane
+### Admin Panel
 
-![Admin Dashboard](screenshots/admin-dashboard.pg
-![Order Management](screenshots/admin-orders.pg)
+![Admin Dashboard](screenshots/admin-dashboard.png)  
+![Order Management](screenshots/admin-orders.png)
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v14 or higer)
-- npm or arn
-- MongoDB instance (local or cloud-baed)
 
-### Backend Setup
-1. Clone the backend repositry:
-   ```bash
-   git clone https://github.com/sheronfdo/Car-Parts-E-Com.git
-   cd Car-Parts-E-Com
-   ```
-
-2. Install dependences:
-   ```bash
-   npm install
-   ```
-
-3. Configure environment variabes:
-  - Create a `.env` file in the root directry.
-  - Add the following variabes:
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     ```
-4. Start the serer:
-   ```bash
-   npm start
-   ```
-
+- Node.js (v14 or higher)
+- npm or yarn
+- MongoDB instance (local or cloud-based)
 
-### Admin Panel Setup
-1. Clone the admin panel repositry:
-   ```bash
-   git clone https://github.com/rashsvr/DriveStock-admin.git
-   cd DriveStock-admin
-   ```
-
-2. Install dependences:
-   ```bash
-   npm install
-   ```
-
-3. Configure environment variabes:
-  - Create a `.env` file in the root directry.
-  - Add the following variale:
-     ```env
-     REACT_APP_API_URL=http://localhost:5000
-     ```
-4. Start the development serer:
-   ```bash
-   npm start
-   ```
-
+---
 
-### Client App Setup
-1. Clone the client app repositry:
-   ```bash
-   git clone https://github.com/rashsvr/DriveStock-client.git
-   cd DriveStock-client
-   ```
-
-2. Install dependences:
-   ```bash
-   npm install
-   ```
-
-3. Configure environment variabes:
-  - Create a `.env` file in the root directry.
-  - Add the following variale:
-     ```env
-     VITE_API_URL=http://localhost:5000
-     ```
-4. Start the development serer:
-   ```bash
-   npm run dev
-   ```
-
+### 🔧 Backend Setup
+
+```bash
+git clone https://github.com/sheronfdo/Car-Parts-E-Com.git
+cd Car-Parts-E-Com
+npm install
+```
+
+Create a `.env` file in the root directory:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+Start the server:
+
+```bash
+npm start
+```
+
+---
+
+### 🛠️ Admin Panel Setup
+
+```bash
+git clone https://github.com/rashsvr/DriveStock-admin.git
+cd DriveStock-admin
+npm install
+```
+
+Create a `.env` file:
+
+```env
+REACT_APP_API_URL=http://localhost:5000
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+---
+
+### 🌐 Client App Setup
+
+```bash
+git clone https://github.com/rashsvr/DriveStock-client.git
+cd DriveStock-client
+npm install
+```
+
+Create a `.env` file:
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
 
 ---
 
 ## 🧪 Features Overview
 
-### Client Ap
+### Client App
 
-- User registration and authentictio
-- Product browsing with search and filter capabiltie
-- Shopping cart and checkout prces
-- Order history and traking
+- User registration and authentication  
+- Product browsing with search and filter capabilities  
+- Shopping cart and checkout process  
+- Order history and tracking
 
-### Admin Pane
+### Admin Panel
 
-- Dashboard with sales analtic
-- Product and category managmen
-- Order processing and status upate
-- User managment
+- Dashboard with sales analytics  
+- Product and category management  
+- Order processing and status updates  
+- User management
 
-### Backend AP
+### Backend API
 
-- RESTful API endpoints for all functionaltie
-- JWT-based authentication and authoriztio
-- MongoDB integration for data persisenc
-- Error handling and input validtion
-
----
-
-## 📂 Folder Strucure
-
-*This section can include diagrams or descriptions of the folder structures for each component to aid developers in understanding the project laout.*
+- RESTful API endpoints for all functionalities  
+- JWT-based authentication and authorization  
+- MongoDB integration for data persistence  
+- Robust error handling and input validation
 
 ---
 
-## 🤝 Contribting
+## 📂 Folder Structure
 
-Contributions are welcome! Please follow thesesteps:
-
-1. Fork the repoitor.
-2. Create a new branch: `git checkout -b feature/your-featurename.
-3. Commit your changes: `git commit -m 'Add your feaure'.
-4. Push to the branch: `git push origin feature/your-featurename.
-5. Open a pull request detailing your canges.
+> *(You can add diagrams or structured outlines here to represent the folder layout of each component.)*
 
 ---
 
-## 📄 Lcense
+## 🤝 Contributing
 
-This project is licensed 
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:  
+   `git checkout -b feature/your-feature-name`
+3. Commit your changes:  
+   `git commit -m 'Add your feature'`
+4. Push to the branch:  
+   `git push origin feature/your-feature-name`
+5. Open a pull request detailing your changes.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
