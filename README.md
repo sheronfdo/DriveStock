@@ -144,8 +144,13 @@ npm run dev
 
 ---
 
+Sure! Here's the complete `## 📂 Folder Structure` section, clean and beautifully formatted in Markdown, ready to paste directly into your GitHub `README.md`:
+
+---
+
 ## 📂 Folder Structure
 
+```plaintext
 📦 Car-Parts-E-Com/
 ├── 📁 controllers/            # Request handlers (route logic)
 ├── 📁 middleware/             # Express middleware (e.g., auth, role check)
@@ -211,8 +216,11 @@ npm run dev
 ├── tailwind.config.js        # Tailwind CSS config
 ├── vite.config.js            # Vite bundler config
 └── README.md                 # Project documentation
+```
 
 ---
+
+
 
 ## 🤝 Contributing
 
